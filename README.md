@@ -1,2 +1,8 @@
 # NudleOS
 NudleOS Source Code
+
+NudleOS is an operating system mainly designed for workstations.
+## Using NudleOS
+To use NudleOS, use a usable set of hardware, such as 16 gigabytes of RAM. If you'd like to do the installation manually, read INSTALL. If you do automatic install, then it would be best to use supported sets of hardware, including Intel HD integrated graphics, or AMD Radeon integrated graphics. NudleOS has 2 of the Nudle Project frameworks, writtei in C++. To use the terminal, use the `man shell` command or the `exec ~/.help`. These commands show all the beginner commands. To use the graphical desktop interface, NudleGUI, then look for a blue button at the top left that says "Start", and click it. Look for a search bar and type "Firefox" and go to there. (Once published) Go to nudle-project.org and go to command list. There are links that say the command name, and those links go to a documentation file. At the top, there's the taskbar with the start button. There are base pinned apps at the taskbar that include Files, Terminal, and Firefox.
+## Using frameworks
+Frameworks are used in system-level programs. These programs interact with the kernel and are written in C++. Framework "Brittleware" is used in driver store programs to allow programs to "grab" the driver from memory and store it in a system directory. User framework "FsUSer" allows the user to interact with the filesystem with the Files application.
