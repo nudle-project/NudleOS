@@ -1,0 +1,29 @@
+?buildfolder = ".."
+build "../source/kernel" to kernel.dzt.kgt rawbin
+build "../source/networking" to net.dzt.kgt rawbin
+build "../source/graphics" to gfx.dzt.kgt rawbin
+build "../source/boot" to boot.dzt.kgt rawbin
+build "../source/loader" to loader.dzt.kgt rawbin
+build "../source/installer" to installer.dzt.kgt rawbin
+build "../source/cli" to cli.dzt.kgt rawbin
+build "../source/shell" to shell.dzt.kgt rawbin
+build "../source/terminal" to terminal.dzt.kgt rawbin
+build "../source/usb" to usb.dzt.kgt rawbin
+build "../source/firmware" to firmware.dzt.kgt rawbin
+build "../source/efi" to efi.dzt.kgt rawbin
+build "../source/uefi" to uefi.dzt.kgt rawbin
+build "../source/graphics" to gfx.dzt.kgt rawbin
+build "../source/audio" to audio.dzt.kgt rawbin
+build "../source/input" to input.dzt.kgt rawbin
+build "../source/storage" to storage.dzt.kgt rawbin
+build "../source/filesystem" to fs.dzt.kgt rawbin
+build "../source/security" to security.dzt.kgt rawbin
+build "../source/virtualization" to virt.dzt.kgt rawbin
+build "../source/containers" to containers.dzt.kgt rawbin
+build "../source/monitoring" to monitoring.dzt.kgt rawbin
+build "../source/logging" to logging.dzt.kgt rawbin
+build "../source/analytics" to analytics.dzt.kgt rawbin
+.command
+(
+    codebuild --file=codebuild.txt -c40 -j8
+)
