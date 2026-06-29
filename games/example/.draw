@@ -1,0 +1,24 @@
+draw[
+    box(4x4).name=player
+]
+draw[
+    point.line=point(line(0,0,4,4))
+    point.line=deductpoint(line(0,4,4,0))
+    point.line=endgamefail(line(0,4,4,0))
+    point.line=endgamewin(line(0,0,4,4))
+    repeat(4, point.line, all, 4)
+]
+keyboard[
+    key=up, action=move(player, 0, -1)
+    key=down, action=move(player, 0, 1)
+    key=left, action=move(player, -1, 0)
+    key=right, action=move(player, 1, 0)
+]
+end(
+    condition=collision(player, point.line)
+    action=gameover()
+)
+end2(
+    collision(player, end.line)
+    action=gamewin()
+)

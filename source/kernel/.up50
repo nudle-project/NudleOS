@@ -1,5 +1,0 @@
-<version version="5.0.0" />
-<up50 kernel="Nu50">
-    <stack entry="system.stack"/>
-    <program stack=".prog.stack/stack" entry="main"/>
-</up50>
