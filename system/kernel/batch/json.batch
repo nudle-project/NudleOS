@@ -1,0 +1,9 @@
+batch.process[
+    list.json(../json)
+    process.json(../json).batches{
+        batch(kernel.functions)
+        batch(kernel.executive)
+        batch(kernel.process)
+        batch(kernel.system)
+    }
+]
