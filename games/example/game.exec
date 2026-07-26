@@ -1,3 +1,0 @@
-run.batch(game.load, .draw)
-order(1, game.load, 2, .draw)
-end
