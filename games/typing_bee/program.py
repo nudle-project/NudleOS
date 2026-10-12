@@ -12,5 +12,3 @@ class word_list:
             print("Correct!")
         else:
             print("Incorrect!")
-        #Something needed to fix: Make it repeat the process of displaying a word, getting user input, and checking if the input is correct until the user decides to quit. Also, implement a timer to limit the time for typing the word to 10 seconds.
-        
