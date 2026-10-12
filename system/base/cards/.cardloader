@@ -1,0 +1,4 @@
+[batch]
+?batch.cards(cards)
+?batch/cards(max:50)
+:0:30:80:200
